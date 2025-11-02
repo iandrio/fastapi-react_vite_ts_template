@@ -1,0 +1,35 @@
+# ⚡ FastAPI + React + Vite + TypeScript (Full-Stack Template)
+
+A minimal, ready-to-use full-stack boilerplate combining **FastAPI (Python)** and **React (TypeScript)**.  
+Includes **Docker**, **live-reload**, and a clean architecture for small or medium-size apps.
+
+---
+
+## 🚀 Features
+
+| Layer | Tech Stack | Notes |
+|-------|-------------|-------|
+| **Backend** | FastAPI + Uvicorn | Auto-reload, versioned routes (`/api/v1`) |
+| **Frontend** | React + TypeScript + Vite | Fast HMR dev server |
+| **DevOps** | Docker + Compose | One command to start everything |
+| **Cross-origin** | CORS ready | Default `http://localhost:3000` |
+| **Docs** | Swagger / Redoc | Opens automatically at `/docs` |
+
+---
+
+# {{PROJECT_NAME}}
+
+A FastAPI + React project generated from template.
+
+## Quick Start
+
+```bash
+# Backend
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+# Frontend  
+cd frontend
+npm install
+npm run dev
