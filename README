@@ -1,10 +1,5 @@
-A clean, minimal full-stack starter combining FastAPI (Python) and React (TypeScript).
-It’s ready to run in Docker, supports live reload, and provides a well-structured base for small to medium-size applications.
+A simple, clean full-stack starter that brings together FastAPI on the backend and React (TypeScript) on the frontend. 
 
+Also the goal is to speed up starting new projects, so I don’t have to rebuild the full-stack structure from scratch every time.
 
-| **Backend** | FastAPI + Uvicorn | Auto-reload, versioned routes (`/api/v1`) |
-| **Frontend** | React + TypeScript + Vite | Fast HMR dev server |
-| **DevOps** | Docker + Compose | One command to start everything |
-| **Cross-origin** | CORS ready | Default `http://localhost:3000` |
-| **Docs** | Swagger / Redoc | Opens automatically at `/docs` |
-
+Everything runs through Docker, supports live reload during development, and is organized in a way that makes it easy to build out small or medium-size projects.
